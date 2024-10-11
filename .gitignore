@@ -1,0 +1,4 @@
+# Ignorar archivos que no son necesarios
+node_modules/
+*.log
+.settings.js
