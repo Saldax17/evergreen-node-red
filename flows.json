@@ -1,0 +1,92 @@
+[
+    {
+        "id": "8a3385f01b0fac7d",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "f38f74f53ed55e87",
+        "type": "inject",
+        "z": "8a3385f01b0fac7d",
+        "name": "Consulta Tabla Parcelas",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 110,
+        "y": 240,
+        "wires": [
+            [
+                "55c9d6775f11f19e"
+            ]
+        ]
+    },
+    {
+        "id": "55c9d6775f11f19e",
+        "type": "function",
+        "z": "8a3385f01b0fac7d",
+        "name": "function Tabla Parcelas",
+        "func": "var parcelID = 1;  // ParcelID \"quemado\"\nvar fecha = \"2024-10-11\";  // Fecha \"quemada\"\n\n// Consulta SQL con ParcelID y Fecha quemados\nmsg.topic = `\nSELECT * FROM Parcelas WHERE ParcelID = ${parcelID} AND DATE(Fecha) = DATE('${fecha}');\n`;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 410,
+        "y": 240,
+        "wires": [
+            [
+                "2ec1243ae6eca096"
+            ]
+        ]
+    },
+    {
+        "id": "2ec1243ae6eca096",
+        "type": "sqlite",
+        "z": "8a3385f01b0fac7d",
+        "mydb": "",
+        "sqlquery": "msg.topic",
+        "sql": "",
+        "name": "",
+        "x": 630,
+        "y": 240,
+        "wires": [
+            [
+                "5191e3b2bab0cafa"
+            ]
+        ]
+    },
+    {
+        "id": "5191e3b2bab0cafa",
+        "type": "debug",
+        "z": "8a3385f01b0fac7d",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 800,
+        "y": 240,
+        "wires": []
+    }
+]
