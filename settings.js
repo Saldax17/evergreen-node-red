@@ -5,6 +5,8 @@ module.exports = {
     // Define dónde guardar los flujos
     flowFile: './flows/flows.json', // Cambia esto a la ubicación de tu flows.json
 
+    credentialSecret: "1",
+
     // Configurar el almacén de contexto en memoria
     contextStorage: {
         default: {
