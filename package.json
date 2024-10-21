@@ -4,10 +4,14 @@
     "description": "Aplicación Node-RED para el módulo de producción de EverGreen",
     "main": "app.js",
     "scripts": {
-      "start": "node-red"
+        "start": "node-red"
     },
     "dependencies": {
-      "node-red": "^3.0.0"  
+        "node-red": "^3.0.0",
+        "node-red-contrib-moment": "~5.0.0",
+        "node-red-contrib-postgrestor-next": "~0.5.0",
+        "node-red-contrib-ui-led": "~0.4.11",
+        "node-red-contrib-ui-media": "~1.2.0",
+        "node-red-dashboard": "^3.6.5"
     }
-  }
-  
+}
