@@ -1,0 +1,12 @@
+version: '3'
+services:
+  nodered:
+    image: nodered/node-red:latest  # Usamos la última imagen oficial de Node-RED
+    container_name: nodered_prod    # Nombre del contenedor
+    ports:
+      - "1880:1880"                # Mapeo del puerto de Node-RED
+    volumes:
+      - ./flows:/data               # Montamos el directorio de flujos desde tu proyecto local
+    environment:
+      - TZ=America/Bogota           # Configura la zona horaria según tu región
+    restart: always                 # Reinicia el contenedor automáticamente si se cae
