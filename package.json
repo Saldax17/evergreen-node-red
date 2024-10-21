@@ -1,0 +1,13 @@
+{
+    "name": "evergreen-node-red",
+    "version": "1.0.0",
+    "description": "Aplicación Node-RED para el módulo de producción de EverGreen",
+    "main": "app.js",
+    "scripts": {
+      "start": "node-red"
+    },
+    "dependencies": {
+      "node-red": "^3.0.0"  
+    }
+  }
+  

@@ -1,4 +1,53 @@
-# Ignorar archivos que no son necesarios
+# Node.js
 node_modules/
+npm-debug.log
+yarn-error.log
+
+# Node-RED
+.red/
+flows_*.json*
+lib/
+.settings.json
+.externalModules.json
+.flow.json
+.context.json
+.config.nodes.json
+.config.runtime.json
+.config.runtime.json.backup
+.config.users.json
+.config.users.json.backup
+
+
+# Docker
+docker-compose.override.yml
+docker-compose.yml
+.dockerignore
+
+# Environment Variables
+.env
+
+# Logs
+logs/
 *.log
-.settings.js
+*.pid
+*.seed
+*.pid.lock
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE-specific files
+.vscode/
+.idea/
+*.swp
+
+# Temporary Files
+tmp/
+*.tmp
+
+# Ignore generated SSL files (if you are using HTTPS)
+*.pem
+
+# Ignore specific files used for deployment scripts
+/deploy/
