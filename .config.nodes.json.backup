@@ -427,6 +427,46 @@
             }
         }
     },
+    "node-red-contrib-postgrestor-next": {
+        "name": "node-red-contrib-postgrestor-next",
+        "version": "0.5.0",
+        "local": true,
+        "user": true,
+        "nodes": {
+            "postgrestor": {
+                "name": "postgrestor",
+                "types": [
+                    "postgresDB",
+                    "postgrestor",
+                    "postgrestor-listener"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-postgrestor-next",
+                "file": "C:\\Users\\Lenovo\\Desktop\\Industrialización Dllo Software\\App_NodeRED\\evergreen-node-red\\node_modules\\node-red-contrib-postgrestor-next\\postgrestor.js"
+            }
+        }
+    },
+    "node-red-contrib-ui-media": {
+        "name": "node-red-contrib-ui-media",
+        "version": "1.2.0",
+        "local": true,
+        "user": true,
+        "nodes": {
+            "ui_media": {
+                "name": "ui_media",
+                "types": [
+                    "ui_media"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-ui-media",
+                "file": "C:\\Users\\Lenovo\\Desktop\\Industrialización Dllo Software\\App_NodeRED\\evergreen-node-red\\node_modules\\node-red-contrib-ui-media\\ui_media.js"
+            }
+        }
+    },
     "node-red-dashboard": {
         "name": "node-red-dashboard",
         "version": "3.6.5",
@@ -442,7 +482,7 @@
                 "local": true,
                 "user": false,
                 "module": "node-red-dashboard",
-                "file": "C:\\Users\\Lenovo\\Desktop\\Industrialización Dllo Software\\App_NodeRED\\Node-RED-clone\\evergreen-node-red\\node_modules\\node-red-dashboard\\nodes\\ui_base.js"
+                "file": "C:\\Users\\Lenovo\\Desktop\\Industrialización Dllo Software\\App_NodeRED\\evergreen-node-red\\node_modules\\node-red-dashboard\\nodes\\ui_base.js"
             },
             "ui_button": {
                 "name": "ui_button",
@@ -453,7 +493,7 @@
                 "local": true,
                 "user": false,
                 "module": "node-red-dashboard",
-                "file": "C:\\Users\\Lenovo\\Desktop\\Industrialización Dllo Software\\App_NodeRED\\Node-RED-clone\\evergreen-node-red\\node_modules\\node-red-dashboard\\nodes\\ui_button.js"
+                "file": "C:\\Users\\Lenovo\\Desktop\\Industrialización Dllo Software\\App_NodeRED\\evergreen-node-red\\node_modules\\node-red-dashboard\\nodes\\ui_button.js"
             },
             "ui_dropdown": {
                 "name": "ui_dropdown",
@@ -464,7 +504,7 @@
                 "local": true,
                 "user": false,
                 "module": "node-red-dashboard",
-                "file": "C:\\Users\\Lenovo\\Desktop\\Industrialización Dllo Software\\App_NodeRED\\Node-RED-clone\\evergreen-node-red\\node_modules\\node-red-dashboard\\nodes\\ui_dropdown.js"
+                "file": "C:\\Users\\Lenovo\\Desktop\\Industrialización Dllo Software\\App_NodeRED\\evergreen-node-red\\node_modules\\node-red-dashboard\\nodes\\ui_dropdown.js"
             },
             "ui_switch": {
                 "name": "ui_switch",
@@ -475,7 +515,7 @@
                 "local": true,
                 "user": false,
                 "module": "node-red-dashboard",
-                "file": "C:\\Users\\Lenovo\\Desktop\\Industrialización Dllo Software\\App_NodeRED\\Node-RED-clone\\evergreen-node-red\\node_modules\\node-red-dashboard\\nodes\\ui_switch.js"
+                "file": "C:\\Users\\Lenovo\\Desktop\\Industrialización Dllo Software\\App_NodeRED\\evergreen-node-red\\node_modules\\node-red-dashboard\\nodes\\ui_switch.js"
             },
             "ui_slider": {
                 "name": "ui_slider",
@@ -486,7 +526,7 @@
                 "local": true,
                 "user": false,
                 "module": "node-red-dashboard",
-                "file": "C:\\Users\\Lenovo\\Desktop\\Industrialización Dllo Software\\App_NodeRED\\Node-RED-clone\\evergreen-node-red\\node_modules\\node-red-dashboard\\nodes\\ui_slider.js"
+                "file": "C:\\Users\\Lenovo\\Desktop\\Industrialización Dllo Software\\App_NodeRED\\evergreen-node-red\\node_modules\\node-red-dashboard\\nodes\\ui_slider.js"
             },
             "ui_numeric": {
                 "name": "ui_numeric",
@@ -497,7 +537,7 @@
                 "local": true,
                 "user": false,
                 "module": "node-red-dashboard",
-                "file": "C:\\Users\\Lenovo\\Desktop\\Industrialización Dllo Software\\App_NodeRED\\Node-RED-clone\\evergreen-node-red\\node_modules\\node-red-dashboard\\nodes\\ui_numeric.js"
+                "file": "C:\\Users\\Lenovo\\Desktop\\Industrialización Dllo Software\\App_NodeRED\\evergreen-node-red\\node_modules\\node-red-dashboard\\nodes\\ui_numeric.js"
             },
             "ui_text_input": {
                 "name": "ui_text_input",
@@ -508,7 +548,7 @@
                 "local": true,
                 "user": false,
                 "module": "node-red-dashboard",
-                "file": "C:\\Users\\Lenovo\\Desktop\\Industrialización Dllo Software\\App_NodeRED\\Node-RED-clone\\evergreen-node-red\\node_modules\\node-red-dashboard\\nodes\\ui_text_input.js"
+                "file": "C:\\Users\\Lenovo\\Desktop\\Industrialización Dllo Software\\App_NodeRED\\evergreen-node-red\\node_modules\\node-red-dashboard\\nodes\\ui_text_input.js"
             },
             "ui_date_picker": {
                 "name": "ui_date_picker",
@@ -519,7 +559,7 @@
                 "local": true,
                 "user": false,
                 "module": "node-red-dashboard",
-                "file": "C:\\Users\\Lenovo\\Desktop\\Industrialización Dllo Software\\App_NodeRED\\Node-RED-clone\\evergreen-node-red\\node_modules\\node-red-dashboard\\nodes\\ui_date_picker.js"
+                "file": "C:\\Users\\Lenovo\\Desktop\\Industrialización Dllo Software\\App_NodeRED\\evergreen-node-red\\node_modules\\node-red-dashboard\\nodes\\ui_date_picker.js"
             },
             "ui_colour_picker": {
                 "name": "ui_colour_picker",
@@ -530,7 +570,7 @@
                 "local": true,
                 "user": false,
                 "module": "node-red-dashboard",
-                "file": "C:\\Users\\Lenovo\\Desktop\\Industrialización Dllo Software\\App_NodeRED\\Node-RED-clone\\evergreen-node-red\\node_modules\\node-red-dashboard\\nodes\\ui_colour_picker.js"
+                "file": "C:\\Users\\Lenovo\\Desktop\\Industrialización Dllo Software\\App_NodeRED\\evergreen-node-red\\node_modules\\node-red-dashboard\\nodes\\ui_colour_picker.js"
             },
             "ui_form": {
                 "name": "ui_form",
@@ -541,7 +581,7 @@
                 "local": true,
                 "user": false,
                 "module": "node-red-dashboard",
-                "file": "C:\\Users\\Lenovo\\Desktop\\Industrialización Dllo Software\\App_NodeRED\\Node-RED-clone\\evergreen-node-red\\node_modules\\node-red-dashboard\\nodes\\ui_form.js"
+                "file": "C:\\Users\\Lenovo\\Desktop\\Industrialización Dllo Software\\App_NodeRED\\evergreen-node-red\\node_modules\\node-red-dashboard\\nodes\\ui_form.js"
             },
             "ui_text": {
                 "name": "ui_text",
@@ -552,7 +592,7 @@
                 "local": true,
                 "user": false,
                 "module": "node-red-dashboard",
-                "file": "C:\\Users\\Lenovo\\Desktop\\Industrialización Dllo Software\\App_NodeRED\\Node-RED-clone\\evergreen-node-red\\node_modules\\node-red-dashboard\\nodes\\ui_text.js"
+                "file": "C:\\Users\\Lenovo\\Desktop\\Industrialización Dllo Software\\App_NodeRED\\evergreen-node-red\\node_modules\\node-red-dashboard\\nodes\\ui_text.js"
             },
             "ui_gauge": {
                 "name": "ui_gauge",
@@ -563,7 +603,7 @@
                 "local": true,
                 "user": false,
                 "module": "node-red-dashboard",
-                "file": "C:\\Users\\Lenovo\\Desktop\\Industrialización Dllo Software\\App_NodeRED\\Node-RED-clone\\evergreen-node-red\\node_modules\\node-red-dashboard\\nodes\\ui_gauge.js"
+                "file": "C:\\Users\\Lenovo\\Desktop\\Industrialización Dllo Software\\App_NodeRED\\evergreen-node-red\\node_modules\\node-red-dashboard\\nodes\\ui_gauge.js"
             },
             "ui_chart": {
                 "name": "ui_chart",
@@ -574,7 +614,7 @@
                 "local": true,
                 "user": false,
                 "module": "node-red-dashboard",
-                "file": "C:\\Users\\Lenovo\\Desktop\\Industrialización Dllo Software\\App_NodeRED\\Node-RED-clone\\evergreen-node-red\\node_modules\\node-red-dashboard\\nodes\\ui_chart.js"
+                "file": "C:\\Users\\Lenovo\\Desktop\\Industrialización Dllo Software\\App_NodeRED\\evergreen-node-red\\node_modules\\node-red-dashboard\\nodes\\ui_chart.js"
             },
             "ui_audio": {
                 "name": "ui_audio",
@@ -585,7 +625,7 @@
                 "local": true,
                 "user": false,
                 "module": "node-red-dashboard",
-                "file": "C:\\Users\\Lenovo\\Desktop\\Industrialización Dllo Software\\App_NodeRED\\Node-RED-clone\\evergreen-node-red\\node_modules\\node-red-dashboard\\nodes\\ui_audio.js"
+                "file": "C:\\Users\\Lenovo\\Desktop\\Industrialización Dllo Software\\App_NodeRED\\evergreen-node-red\\node_modules\\node-red-dashboard\\nodes\\ui_audio.js"
             },
             "ui_toast": {
                 "name": "ui_toast",
@@ -596,7 +636,7 @@
                 "local": true,
                 "user": false,
                 "module": "node-red-dashboard",
-                "file": "C:\\Users\\Lenovo\\Desktop\\Industrialización Dllo Software\\App_NodeRED\\Node-RED-clone\\evergreen-node-red\\node_modules\\node-red-dashboard\\nodes\\ui_toast.js"
+                "file": "C:\\Users\\Lenovo\\Desktop\\Industrialización Dllo Software\\App_NodeRED\\evergreen-node-red\\node_modules\\node-red-dashboard\\nodes\\ui_toast.js"
             },
             "ui_ui_control": {
                 "name": "ui_ui_control",
@@ -607,7 +647,7 @@
                 "local": true,
                 "user": false,
                 "module": "node-red-dashboard",
-                "file": "C:\\Users\\Lenovo\\Desktop\\Industrialización Dllo Software\\App_NodeRED\\Node-RED-clone\\evergreen-node-red\\node_modules\\node-red-dashboard\\nodes\\ui_ui_control.js"
+                "file": "C:\\Users\\Lenovo\\Desktop\\Industrialización Dllo Software\\App_NodeRED\\evergreen-node-red\\node_modules\\node-red-dashboard\\nodes\\ui_ui_control.js"
             },
             "ui_template": {
                 "name": "ui_template",
@@ -618,7 +658,7 @@
                 "local": true,
                 "user": false,
                 "module": "node-red-dashboard",
-                "file": "C:\\Users\\Lenovo\\Desktop\\Industrialización Dllo Software\\App_NodeRED\\Node-RED-clone\\evergreen-node-red\\node_modules\\node-red-dashboard\\nodes\\ui_template.js"
+                "file": "C:\\Users\\Lenovo\\Desktop\\Industrialización Dllo Software\\App_NodeRED\\evergreen-node-red\\node_modules\\node-red-dashboard\\nodes\\ui_template.js"
             },
             "ui_link": {
                 "name": "ui_link",
@@ -629,7 +669,7 @@
                 "local": true,
                 "user": false,
                 "module": "node-red-dashboard",
-                "file": "C:\\Users\\Lenovo\\Desktop\\Industrialización Dllo Software\\App_NodeRED\\Node-RED-clone\\evergreen-node-red\\node_modules\\node-red-dashboard\\nodes\\ui_link.js"
+                "file": "C:\\Users\\Lenovo\\Desktop\\Industrialización Dllo Software\\App_NodeRED\\evergreen-node-red\\node_modules\\node-red-dashboard\\nodes\\ui_link.js"
             },
             "ui_tab": {
                 "name": "ui_tab",
@@ -640,7 +680,7 @@
                 "local": true,
                 "user": false,
                 "module": "node-red-dashboard",
-                "file": "C:\\Users\\Lenovo\\Desktop\\Industrialización Dllo Software\\App_NodeRED\\Node-RED-clone\\evergreen-node-red\\node_modules\\node-red-dashboard\\nodes\\ui_tab.js"
+                "file": "C:\\Users\\Lenovo\\Desktop\\Industrialización Dllo Software\\App_NodeRED\\evergreen-node-red\\node_modules\\node-red-dashboard\\nodes\\ui_tab.js"
             },
             "ui_group": {
                 "name": "ui_group",
@@ -651,7 +691,7 @@
                 "local": true,
                 "user": false,
                 "module": "node-red-dashboard",
-                "file": "C:\\Users\\Lenovo\\Desktop\\Industrialización Dllo Software\\App_NodeRED\\Node-RED-clone\\evergreen-node-red\\node_modules\\node-red-dashboard\\nodes\\ui_group.js"
+                "file": "C:\\Users\\Lenovo\\Desktop\\Industrialización Dllo Software\\App_NodeRED\\evergreen-node-red\\node_modules\\node-red-dashboard\\nodes\\ui_group.js"
             },
             "ui_spacer": {
                 "name": "ui_spacer",
@@ -662,7 +702,7 @@
                 "local": true,
                 "user": false,
                 "module": "node-red-dashboard",
-                "file": "C:\\Users\\Lenovo\\Desktop\\Industrialización Dllo Software\\App_NodeRED\\Node-RED-clone\\evergreen-node-red\\node_modules\\node-red-dashboard\\nodes\\ui_spacer.js"
+                "file": "C:\\Users\\Lenovo\\Desktop\\Industrialización Dllo Software\\App_NodeRED\\evergreen-node-red\\node_modules\\node-red-dashboard\\nodes\\ui_spacer.js"
             }
         }
     },
@@ -686,71 +726,23 @@
             }
         }
     },
-    "node-red-contrib-ui-led": {
-        "name": "node-red-contrib-ui-led",
-        "version": "0.4.11",
+    "node-red-contrib-postgres-multi": {
+        "name": "node-red-contrib-postgres-multi",
+        "version": "0.2.0",
         "local": true,
         "user": true,
         "nodes": {
-            "ui_led": {
-                "name": "ui_led",
+            "PostgreSql": {
+                "name": "PostgreSql",
                 "types": [
-                    "ui_led"
+                    "postgresdb",
+                    "postgres"
                 ],
                 "enabled": true,
                 "local": true,
                 "user": false,
-                "module": "node-red-contrib-ui-led",
-                "file": "C:\\Users\\Lenovo\\Desktop\\Industrialización Dllo Software\\App_NodeRED\\Node-RED-clone\\evergreen-node-red\\node_modules\\node-red-contrib-ui-led\\dist\\nodes\\ui_led\\ui_led.js"
-            }
-        }
-    },
-    "node-red-contrib-ui-media": {
-        "name": "node-red-contrib-ui-media",
-        "version": "1.2.0",
-        "local": true,
-        "user": true,
-        "nodes": {
-            "ui_media": {
-                "name": "ui_media",
-                "types": [
-                    "ui_media"
-                ],
-                "enabled": true,
-                "local": true,
-                "user": false,
-                "module": "node-red-contrib-ui-media",
-                "file": "C:\\Users\\Lenovo\\Desktop\\Industrialización Dllo Software\\App_NodeRED\\Node-RED-clone\\evergreen-node-red\\node_modules\\node-red-contrib-ui-media\\ui_media.js"
-            }
-        }
-    },
-    "node-red-contrib-moment": {
-        "name": "node-red-contrib-moment",
-        "version": "5.0.0",
-        "local": true,
-        "user": true,
-        "nodes": {
-            "moment": {
-                "name": "moment",
-                "types": [
-                    "moment"
-                ],
-                "enabled": true,
-                "local": true,
-                "user": false,
-                "module": "node-red-contrib-moment",
-                "file": "C:\\Users\\Lenovo\\Desktop\\Industrialización Dllo Software\\App_NodeRED\\Node-RED-clone\\evergreen-node-red\\node_modules\\node-red-contrib-moment\\moment\\nrmoment.js"
-            },
-            "humanizer": {
-                "name": "humanizer",
-                "types": [
-                    "humanizer"
-                ],
-                "enabled": true,
-                "local": true,
-                "user": false,
-                "module": "node-red-contrib-moment",
-                "file": "C:\\Users\\Lenovo\\Desktop\\Industrialización Dllo Software\\App_NodeRED\\Node-RED-clone\\evergreen-node-red\\node_modules\\node-red-contrib-moment\\moment\\nrhumanizer.js"
+                "module": "node-red-contrib-postgres-multi",
+                "file": "C:\\Users\\Lenovo\\Desktop\\Industrialización Dllo Software\\App_NodeRED\\evergreen-node-red\\node_modules\\node-red-contrib-postgres-multi\\postgres.js"
             }
         }
     }
