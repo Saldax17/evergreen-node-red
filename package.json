@@ -11,6 +11,7 @@
         "node-red-contrib-postgres-multi": "^0.2.0",
         "node-red-contrib-postgresql": "~0.14.2",
         "node-red-contrib-postgrestor-next": "^0.5.0",
-        "node-red-dashboard": "^3.6.5"
+        "node-red-dashboard": "^3.6.5",
+        "node-red-node-random": "~0.4.1"
     }
 }

@@ -19,6 +19,7 @@ lib/
 .config.nodes.json.backup
 .config.projects.json
 .config.projects.json.backup
+.config.nodes.json.backup
 
 
 # Docker
